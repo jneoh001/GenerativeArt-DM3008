@@ -1,0 +1,1 @@
+{"tfjsVersion":"1.3.1","tmVersion":"0.8.6","packageVersion":"0.8.6","packageName":"@teachablemachine/pose","timeStamp":"2024-09-02T11:12:55.823Z","userMetadata":{},"modelName":"my-pose-model","labels":["Smile","Angry","Hands Up","Right Hand Up","Left Hand Up"],"modelSettings":{"posenet":{"architecture":"MobileNetV1","outputStride":16,"inputResolution":257,"multiplier":0.75}}}
