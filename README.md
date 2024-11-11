@@ -1,6 +1,9 @@
 
 # Music Visualiser Project
-<img src="assets/nyancat.jpg" width="700" height="500">
+
+
+![alt text](image.png)
+<!-- <img src="assets/nyancat.jpg" width="700" height="500"> -->
 
 ## 😬 Introduction
 
