@@ -2,13 +2,15 @@ let song;
 let fft;
 let playButton;
 
-// Hyperparameters//
-let sceneRotationalFactor = 0.05;
-let colorOffset = 0; 
 
 let smoothedBass = 0;
 let smoothedMid = 0;
 let smoothedTreble = 0;
+
+// Hyperparameters//
+let sceneRotationalFactor = 0.05;
+let colorOffset = 0; 
+
 let BASS_NOISE_GATE = 20;  // Higher threshold for bass
 let MID_NOISE_GATE = 20;
 let TREBLE_NOISE_GATE = 3;
