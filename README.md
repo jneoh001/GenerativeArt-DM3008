@@ -1,5 +1,5 @@
 
-# Music Visualiser Project
+# RainbowBeats
 
 
 ![alt text](image.png)
