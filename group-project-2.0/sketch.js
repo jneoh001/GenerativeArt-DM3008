@@ -219,7 +219,7 @@ function draw() {
     /////////////////////////
     /// Random Spheres in background 
     /////////////////////////
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 50; i++) {
         push();
         let rx = random(-width / 2, width / 2);
         let ry = random(-height / 2, height / 2);
@@ -230,9 +230,9 @@ function draw() {
         let trebleHue = (colorOffset + map(trebleEnergy, 0, 255, 0, 360)) % 360;
         colorMode(HSB);
         stroke(
-            trebleHue, 
-            trebleHue, 
-            trebleHue
+            trebleHue*4, 
+            trebleHue*4, 
+            trebleHue*4
         );
         ambientMaterial(trebleHue, 100, 100);
         
